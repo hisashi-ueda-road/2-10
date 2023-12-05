@@ -10,10 +10,10 @@ public class Task2_5 {
     public static void main(String[] args) {
 
         // ① 「みかん」、「りんご」、「ぶどう」、「メロン」の値を設定した配列 fruits を作成してください。
-        String[] fruits={"みかん","りんご","ぶどう","めろん"};
+        String fruits[]=new String[]{"みかん","りんご","ぶどう","めろん"};
         // ② for文を使って①で作成した配列を出力しなさい。
         for (int i = 0; i < fruits.length; i++) {
-            System.out.println(fruits);
+            System.out.println(fruits[i]);
             }
         // ③ 以下のwhile文の処理について、何をしているのかコメントを記入してください。
         /*
